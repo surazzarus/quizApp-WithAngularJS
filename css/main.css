@@ -1,0 +1,18 @@
+.well-image {
+    height: 160px;
+    width: 100%;
+}
+.top-buffer {
+    margin-top: 30px;
+}
+.modal-header {
+    background-color: #F5F5F5;
+}
+.answer {
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: 1px solid #bbb;
+}
+.answer:hover{
+    cursor: pointer;
+}

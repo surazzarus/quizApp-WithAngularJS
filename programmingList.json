@@ -1,0 +1,65 @@
+[
+  {
+    "type": "Green Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "type": "Red Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "type": "Blue Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "type": "Purple Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore"
+  },
+  {
+    "type": "No Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "type": "What Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  },
+  {
+    "type": "Yes Turtle",
+    "image_url": "images/eiffel.jpg",
+    "location": "Tropical and subTropical",
+    "size": "Up to 1.5m and up to 100kg",
+    "lifespan": "Over 80 years",
+    "diet": "Herbivore",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliquUt enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  }
+]
+
