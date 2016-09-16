@@ -1,15 +1,15 @@
 (function(){
 
     angular
-        .module("ProgrammingFacts")
+        .module("PeopleFacts")
         .controller("ListController",['$http','quizMetrics','dataService', function($http, quizMetrics, dataService){
            var vm = this;
 
-           vm.technologies = dataService.programmingData;
+           vm.peoples = dataService.peopleData;
 
-           activeTechnology = {};
-           vm.changeActiveTechnology = function(technology){
-                vm.activeTechnology = technology;
+           activePeople = {};
+           vm.changeActivePeople = function(people){
+                vm.activePeople = people;
            };
 
            vm.quizMetrics = quizMetrics;

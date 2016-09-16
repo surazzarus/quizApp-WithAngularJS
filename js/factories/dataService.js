@@ -1,10 +1,10 @@
 (function(){
 
     angular
-        .module("ProgrammingFacts")
+        .module("PeopleFacts")
         .factory("dataService", function(){
             var dataObj = {
-                programmingData: programmingData,
+                peopleData: peopleData,
                 quizQuestions: quizQuestions,
                 correctAnswers: correctAnswers
             };
@@ -136,7 +136,7 @@
         }
     ];
 
-    var programmingData = [
+    var peopleData = [
         {
             "name": "Barack Obama",
             "image_url": "images/barack_obama.jpg",
@@ -388,7 +388,7 @@
 
 
 
-    var programmingData = [
+    var peopleData = [
         {
             "type": "Green Turtle",
             "image_url": "images/eiffel.jpg",

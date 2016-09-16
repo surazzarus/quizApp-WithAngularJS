@@ -1,7 +1,7 @@
 (function(){
 
     angular
-        .module('ProgrammingFacts')
+        .module('PeopleFacts')
         .controller('ResultsController',['quizMetrics','dataService', function(quizMetrics, dataService){
             var vm = this;
             vm.quizMetrics = quizMetrics;

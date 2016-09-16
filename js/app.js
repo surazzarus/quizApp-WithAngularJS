@@ -1,5 +1,5 @@
 (function(){
 
-    angular.module("ProgrammingFacts", []);
+    angular.module("PeopleFacts", []);
 
 })();

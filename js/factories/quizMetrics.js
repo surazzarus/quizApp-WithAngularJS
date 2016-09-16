@@ -1,7 +1,7 @@
 (function(){
 
     angular
-        .module("ProgrammingFacts")
+        .module("PeopleFacts")
         .factory("quizMetrics", ['dataService', function(dataService){
             var quizObj = {
                 quizActive: false,

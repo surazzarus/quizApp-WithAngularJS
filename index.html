@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="ProgrammingFacts">
+<html lang="en" ng-app="PeopleFacts">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,46 +24,46 @@
                 <button class="btn btn-warning pull-right" ng-click="list.activateQuiz()">Start Quiz</button>
             </form>
             <div class="row">
-                <div class="col-sm-6" ng-repeat="technology in list.technologies | filter:list.search">
+                <div class="col-sm-6" ng-repeat="people in list.peoples | filter:list.search">
                     <div class="well well-sm">
                         <div class="row">
                             <div class="col-md-6">
-                                <img ng-src="{{technology.image_url}}" class="img-rounded img-responsive well-image">
+                                <img ng-src="{{people.image_url}}" class="img-rounded img-responsive well-image">
                             </div>
                             <div class="col-md-6">
-                                <h4>{{technology.name}}</h4>
-                                <p><strong>Country : </strong>{{technology.country}}</p>
-                                <p><strong>Profession : </strong>{{technology.profession}}</p>
+                                <h4>{{people.name}}</h4>
+                                <p><strong>Country : </strong>{{people.country}}</p>
+                                <p><strong>Profession : </strong>{{people.profession}}</p>
                                 <button class="btn btn-primary pull-right"
                                         data-toggle="modal"
-                                        data-target="#technology-info"
-                                        ng-click="list.changeActiveTechnology(technology)">Learn More</button>
+                                        data-target="#people-info"
+                                        ng-click="list.changeActivePeople(people)">Learn More</button>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="modal" id="technology-info">
+            <div class="modal" id="people-info">
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header text-center">
-                            <h2>{{list.activeTechnology.type}}</h2>
+                            <h2>{{list.activePeople.type}}</h2>
                         </div>
                         <div class="modal-body">
                             <div class="row">
                                 <div class="col-xs-8 col-xs-offset-2">
-                                    <img ng-src="{{list.activeTechnology.image_url}}" class="img-rounded img-responsive center-block">
+                                    <img ng-src="{{list.activePeople.image_url}}" class="img-rounded img-responsive center-block">
                                 </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-md-6 top-buffer">
-                                    <p><strong>Country : </strong>{{list.activeTechnology.country}}</p>
-                                    <p><strong>Profession : </strong>{{list.activeTechnology.profession}}</p>
+                                    <p><strong>Country : </strong>{{list.activePeople.country}}</p>
+                                    <p><strong>Profession : </strong>{{list.activePeople.profession}}</p>
                                 </div>
                                 <div class="top-buffer col-xs-12">
-                                    <p>{{list.activeTechnology.description}}</p>
+                                    <p>{{list.activePeople.description}}</p>
                                     <button class="btn btn-danger pull-right"
                                             data-dismiss="modal">Close</button>
                                 </div>

@@ -41,7 +41,7 @@
   },
   {
     "type": "image",
-    "text": "Who is steven_gerrard in the picture shown below?",
+    "text": "Who is Steven Gerrard in the picture shown below?",
     "possibilities": [
           {
             "answer": "images/bob_dylan.jpg"
@@ -61,7 +61,7 @@
   },
   {
     "type": "image",
-    "text": "Who is jurgen_klopp in the picture shown below?",
+    "text": "Who is Jurgen Klopp in the picture shown below?",
     "possibilities": [
       {
         "answer": "images/jurgen_klopp.jpg"
@@ -101,7 +101,7 @@
   },
   {
     "type": "image",
-    "text": "Who is john_resig in the picture shown below?",
+    "text": "Who is John Resig in the picture shown below?",
     "possibilities": [
       {
         "answer": "images/brendan_eich.jpg"
