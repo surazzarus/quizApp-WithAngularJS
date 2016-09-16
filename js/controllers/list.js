@@ -15,7 +15,7 @@
            vm.quizMetrics = quizMetrics;
 
            vm.activateQuiz = function(){
-              quizMetrics.changeState(true);
+              quizMetrics.changeState("quiz", true);
            };
         }]);
 
